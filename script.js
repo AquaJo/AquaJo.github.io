@@ -1,4 +1,5 @@
 window.onload=function(){
+  
   console.log("waited onload");
 document.forms['contactForm'].addEventListener('submit', (event) => {
   event.preventDefault();
