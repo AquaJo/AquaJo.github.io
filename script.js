@@ -19,5 +19,7 @@ document.forms['contactForm'].addEventListener('submit', (event) => {
     console.log(error.message);
     // TODO handle error
   });
+  
 });
+  
 }
