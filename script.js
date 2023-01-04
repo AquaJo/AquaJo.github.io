@@ -1,3 +1,5 @@
+window.onload=function(){
+  console.log("waited onload");
 document.forms['contactForm'].addEventListener('submit', (event) => {
   event.preventDefault();
   // TODO do something here to show user that form is being submitted
@@ -17,3 +19,4 @@ document.forms['contactForm'].addEventListener('submit', (event) => {
     // TODO handle error
   });
 });
+}
